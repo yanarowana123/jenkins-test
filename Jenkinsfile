@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/yourusername/go-k8s-app.git'
+                git 'https://github.com/yanarowana123/jenkins-test'
             }
         }
 
