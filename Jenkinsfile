@@ -1,9 +1,5 @@
 pipeline {
-    agent {
-        docker {
-            image 'bitnami/kubectl:latest'
-        }
-    }
+    agent any
 
     environment {
         K8S_MANIFEST = "k8s-deployment.yaml"
